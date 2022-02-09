@@ -29,18 +29,18 @@ Here's a pretty extensive checklist of what I plan to add insofar!
     - [x] Toggle Alternate Glyphs ✅ 2022-02-09
 - [ ] Aesthetics
   - [ ] Colours
-    - [ ] Accent Colours
-      - [ ] Text
-      - [ ] Text Hover
-      - [ ] Interactive
-      - [ ] Interactive Hover
+    - [x] Accent Colours ✅ 2022-02-09
+      - [x] Text ✅ 2022-02-09
+      - [x] Text Hover ✅ 2022-02-09
+      - [x] Interactive ✅ 2022-02-09
+      - [x] Interactive Hover ✅ 2022-02-09
+    - [ ] File Navigation
   - [ ] Caret
     - [ ] Fill Colour
     - [ ] Outline Colour (Transparent for none)
     - [ ] Caret Style
       - [ ] Block
       - [ ] Pipe (Default)
-  - [ ] File Navigation
 - [x] Highlighter
 - [ ] External Theme Features
   - [ ] Shimmering Focus
@@ -51,12 +51,9 @@ Here's a pretty extensive checklist of what I plan to add insofar!
   - [ ] Minimal
     - [ ] Toggle Checkboxes
       - [ ] Checkbox Shape
-  - [ ] Toggle officerhalf’s Handwritten Letters
 - [x] Plugin Tweaks ✅ 2022-02-09
   - [x] Toggle Compact Admonitions ✅ 2022-02-09
   - [x] Toggle Rainbell’s Column Admonitions ✅ 2022-02-09
-
-
 
 **Table of Contents:**
 
