@@ -1,7 +1,9 @@
-<center><h1>Absolve</h1></center>
+## Absolve
 
-<center><em>əbˈzɒlv</em></center>
+_əbˈzɒlv_
 
-<center>A theme overlay snippet for Obsidian.md</center>
+A theme overlay snippet for **Obsidian.md**.
+
+
 
 ![alt](C:\Users\User\Desktop\Coding\Repos\obsidian-absolve\cover.png)
