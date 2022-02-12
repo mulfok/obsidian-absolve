@@ -4,7 +4,7 @@ _əbˈzɒlv_
 
 A customisable theme overlay snippet for **Obsidian.md**.
 
-![](Absolve Cover.png)
+![](Absolve%20Cover.png)
 
 _Absolve_ is a snippet designed to overlay your current theme and add features, preferences, and various fixes. With good support for both mobile desktop _and_ Publish, you'll find that the sky's the limit with making your favourite theme **perfect for you**.
 
@@ -35,7 +35,7 @@ Once you have the plugins required, go the _releases_ page of this repo and down
 
 Once that’s done, go to the settings pane in Obsidian. Navigate to Appearance, CSS Snippets, and then click the reload button. Absolve should appear, and then you can turn it on.
 
-![](Absolve In CSS.png)
+![](Absolve%20In%20CSS.png)
 
 Your setup is complete! To make use of Absolve’s [features](#Features), just go into your Style Settings menu, and tweak what you like. Have fun!
 
