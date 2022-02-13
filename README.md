@@ -1,37 +1,26 @@
-_əbˈzɒlv_
 # Absolve
-
+_əbˈzɒlv_
 A customisable theme overlay snippet for **Obsidian.md**.
 
-![](Absolve%20Cover.png)
+![](https://cdn.discordapp.com/attachments/667421695841402910/942468195388907560/Absolve_Cover.png)
 
-_Absolve_ is a snippet designed to overlay your current theme and add features, preferences, and various fixes. With good support for both mobile desktop _and_ Publish, you'll find that the sky's the limit with making your favourite theme **perfect for you**.
+_Absolve_ is a CSS snippet designed to overlay your current theme and add features, preferences, and various tweaks. With good support for mobile, desktop, and Publish, you'll find that the sky's the limit with making your favourite theme **perfect for you**.
 
-**Table of Contents:**
-1. [Setup](#Setup)
-1. [Features](#Features)
-	1. [Aesthetics](#Aesthetics)
-	1. [Design Schemes](#Design%20Schemes)
-	1. [External Theme Features](#External%20Theme%20Features)
-	1. [Highlighter](#Highlighter)
-	1. [Kanban](#Kanban)
-	1. [Tweaks](#Tweaks)
-	1. [Typography](#Typography)
-1. [Checklist](#Checklist)
+___
 
----
+### Demonstration
+![](https://i.ibb.co/n1jVMwT/absolve-demonstration.gif)
 
 ### Setup
-Setting up Absolve is a cinch! First off, make sure you have the following plugins installed:
-- [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
+Setting up Absolve is a cinch! First off, make sure you have [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) installed.
 
-Once you have the plugins required, go the _releases_ page of this repo and download `absolve.css`. Once downloaded, go to your vault’s directory. Then, navigate to `.obsidian/snippets`, and place `absolve.css` in the folder.
+Once you have the plugin required, go to the releases page of the [releases page](https://github.com/mulfok/obsidian-absolve/releases) of the snippet's [Github Repo](https://github.com/mulfok/obsidian-absolve), and download `absolve.css`. Once you have it downloaded, navigate to your vault's and find the snippet folder (_yourvaultname/.obsidian/snippets_) and place the CSS file in the folder.
 
-![](Installing%20Absolve.gif)
+![](https://cdn.discordapp.com/attachments/667421695841402910/942468088253788190/Installing_Absolve.gif)
 
 Once that’s done, go to the settings pane in Obsidian. Navigate to Appearance, CSS Snippets, and then click the reload button. Absolve should appear, and then you can turn it on.
 
-![](Absolve%20In%20CSS.png)
+![[Absolve In CSS.png]]
 
 Your setup is complete! To make use of Absolve’s [features](#Features), just go into your Style Settings menu, and tweak what you like. Have fun!
 
@@ -109,3 +98,19 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 		- [x] Toggle External Links Icon ✅ 2022-02-10
 		- [x] Toggle Underline External Links ✅ 2022-02-10
 		- [x] Toggle Underline Internal Links ✅ 2022-02-10
+
+### Changelog
+#### v2.2.0-beta
+✨ **New**
+- Added “Wrap Filenames” toggle > Tweaks
+- Added “Resize Mermaid Graphs” & toggle > Tweaks
+- Added table alignment option > Aesthetics
+- Added “Font Accent” toggle > Typography > Fonts
+- Added “Simpler Cites” toggle > Aesthetics
+- Added “Hide Titlebar Text” toggle > Tweaks
+
+👾 **Bugfixes**
+- Fixed “Compact Ad~~om~~nitions” spelling error
+
+🔧 **Changes**
+- Added emojis preceding first-level headers.
