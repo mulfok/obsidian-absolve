@@ -2,25 +2,25 @@
 _əbˈzɒlv_
 A customisable theme overlay snippet for **Obsidian.md**.
 
-![](https://cdn.discordapp.com/attachments/667421695841402910/942468195388907560/Absolve_Cover.png)
+![](Absolve%20Cover.png)
 
 _Absolve_ is a CSS snippet designed to overlay your current theme and add features, preferences, and various tweaks. With good support for mobile, desktop, and Publish, you'll find that the sky's the limit with making your favourite theme **perfect for you**.
 
 ___
 
 ### Demonstration
-![](https://i.ibb.co/n1jVMwT/absolve-demonstration.gif)
+![](Absolve%20Demo.gif)
 
 ### Setup
 Setting up Absolve is a cinch! First off, make sure you have [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) installed.
 
 Once you have the plugin required, go to the releases page of the [releases page](https://github.com/mulfok/obsidian-absolve/releases) of the snippet's [Github Repo](https://github.com/mulfok/obsidian-absolve), and download `absolve.css`. Once you have it downloaded, navigate to your vault's and find the snippet folder (_yourvaultname/.obsidian/snippets_) and place the CSS file in the folder.
 
-![](https://cdn.discordapp.com/attachments/667421695841402910/942468088253788190/Installing_Absolve.gif)
+![](Installing%20Absolve.gif)
 
 Once that’s done, go to the settings pane in Obsidian. Navigate to Appearance, CSS Snippets, and then click the reload button. Absolve should appear, and then you can turn it on.
 
-![[Absolve In CSS.png]]
+![](Absolve%20In%20CSS.png)
 
 Your setup is complete! To make use of Absolve’s [features](#Features), just go into your Style Settings menu, and tweak what you like. Have fun!
 
