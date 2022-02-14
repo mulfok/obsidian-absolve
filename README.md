@@ -1,18 +1,3 @@
-# Github README
-
-**Metadata:**
-- Created:: 2022-02-12 @ 15:30
-- Related::
-- Summary:: The README.md on the Github page for Absolve.
-- Tags:: #projects/absolve 
-
-**Table of Contents:**
-```toc
-style: number
-```
-
-___
-
 # Absolve
 _əbˈzɒlv_
 A customisable theme overlay snippet for **Obsidian.md**.
