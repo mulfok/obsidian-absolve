@@ -1,3 +1,18 @@
+# Github README
+
+**Metadata:**
+- Created:: 2022-02-12 @ 15:30
+- Related::
+- Summary:: The README.md on the Github page for Absolve.
+- Tags:: #projects/absolve 
+
+**Table of Contents:**
+```toc
+style: number
+```
+
+___
+
 # Absolve
 _əbˈzɒlv_
 A customisable theme overlay snippet for **Obsidian.md**.
@@ -53,6 +68,9 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 			- [x] Dark Mode Colour Schemes ✅ 2022-02-13
 				- [x] Gruvbox ✅ 2022-02-13
 			- [ ] File Navigation
+	- [x] brimwats’ Fancy Blockquotes ✅ 2022-02-14
+	- [x] brimwats’ Prism List Items (Edit Mode) ✅ 2022-02-14
+	- [ ] brimwats’ Prism List Items (Preview Mode)
 - [x] Design Schemes ✅ 2022-02-09
 	- [x] Academia ✅ 2022-02-09
 	- [x] TTRPG ✅ 2022-02-09
@@ -73,7 +91,7 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 	- [x] Toggle Rainbell’s Column Admonitions ✅ 2022-02-09
 	- [x] Toggle Image Desaturation ✅ 2022-02-10
 	- [x] Toggle No Nonsense Note Embeds ✅ 2022-02-11
-- [x] Typography ✅ 2022-02-11
+- [ ] Typography
 	- [x] Font Preferences ✅ 2022-02-09
 		- [x] Preview Mode Font ✅ 2022-02-09
 		- [x] Edit Mode Font ✅ 2022-02-09
@@ -94,12 +112,27 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 		- [x] H4 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
 		- [x] H5 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
 		- [x] H6 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
-	- [x] Links ✅ 2022-02-10
+	- [ ] Links
 		- [x] Toggle External Links Icon ✅ 2022-02-10
 		- [x] Toggle Underline External Links ✅ 2022-02-10
 		- [x] Toggle Underline Internal Links ✅ 2022-02-10
+		- [ ] Choose External Link Colour
 
 ### Changelog
+#### v2.3.0-beta
+✨ **New**
+- Added font “Lora” to bundled fonts.
+- Added brimwats’ fancy blockquotes > Aesthetics
+- Added brimwats’ prism list indicators > Aesthetics
+- Choose external link colour > Aesthetics > Links
+
+🔧 **Changes**
+- Underline option on external/internal links now for _disabling_ pre-existing setting
+- The Viridian design scheme preview mode text will now use “Lora”
+
+👾 **Bugfixes**
+- officerhalf’s handwritten letters should now render with the proper font
+
 #### v2.2.0-beta
 ✨ **New**
 - Added “Wrap Filenames” toggle > Tweaks
@@ -113,4 +146,4 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 - Fixed “Compact Ad~~om~~nitions” spelling error
 
 🔧 **Changes**
-- Added emojis preceding first-level headers.
+- Added emojis preceding first-level headers
