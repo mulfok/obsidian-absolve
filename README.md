@@ -108,6 +108,9 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 👾 **Bugfixes**
 - officerhalf Handwritten Letters can now be applied through `cssclass: handwritten-letter`
 
+❗ **Known Issues**
+- Globally applied Handwritten Letters clash with brimwats’ Fancy Blockquotes
+
 #### v2.3.0-beta
 ✨ **New**
 - Added font “Lora” to bundled fonts.
