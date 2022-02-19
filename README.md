@@ -14,7 +14,7 @@ ___
 ### Setup
 Setting up Absolve is a cinch! First off, make sure you have [Style Settings](https://github.com/mgmeyers/obsidian-style-settings) installed.
 
-Once you have the plugin required, go to the releases page of the [releases page](https://github.com/mulfok/obsidian-absolve/releases) of the snippet's [Github Repo](https://github.com/mulfok/obsidian-absolve), and download `absolve.css`. Once you have it downloaded, navigate to your vault's and find the snippet folder (_yourvaultname/.obsidian/snippets_) and place the CSS file in the folder.
+Once you have the plugin required, go to the [releases page](https://github.com/mulfok/obsidian-absolve/releases) of the snippet's [Github Repo](https://github.com/mulfok/obsidian-absolve), and download `absolve.css`. Once you have it downloaded, navigate to your vault's and find the snippet folder (_yourvaultname/.obsidian/snippets_) and place the CSS file in the folder.
 
 ![](Installing%20Absolve.gif)
 
@@ -25,13 +25,101 @@ Once that’s done, go to the settings pane in Obsidian. Navigate to Appearance,
 Your setup is complete! To make use of Absolve’s [features](#Features), just go into your Style Settings menu, and tweak what you like. Have fun!
 
 ### Features
-#### Aesthetics
-#### Design Schemes
-#### External Theme Features
-#### Highlighter
-#### Kanban
-#### Tweaks
-#### Typography
+
+#### Admonition Columns
+Admonition columns are a neat little way of sorting and displaying information. Pulled from Rainbell’s [extensive homepage resources](https://github.com/Rainbell129/Obsidian-Homepage), you can enable them through the “_Tweaks_” header in Style Settings.
+
+To set them up, make sure you have javalent’s [Admonitions Plugin](https://github.com/valentine195/obsidian-admonition) installed. If you have/once you do, go to the settings tab and create custom admonitions `col1-4`.
+
+![](https://cdn.discordapp.com/attachments/667421695841402910/944391020102172682/unknown.png)
+
+It doesn’t matter what’s in the block, as long as it follows the name scheme `colX`. Once that’s all done, you can create your blocks normally. Below are some examples.
+
+`````markdown
+````ad-col3
+title: 
+```ad-note
+title: Catatan2 Yang Bagus
+- Satu
+- Dua
+- Tiga
+- Empat
+- Lima
+```
+
+```ad-bug
+Roses are red,
+Violets are blue,
+Missing ')' at line 32.
+```
+
+```ad-warning
+Floor slippery when wet!
+```
+````
+`````
+
+![](https://cdn.discordapp.com/attachments/667421695841402910/944392662813900800/unknown.png)
+
+#### Image Grid
+> NOTE:
+> Image grid is _very_ finicky with kepano’s Minimal Theme.
+> If you _do_ want to use it with Minimal, make sure to turn off _Maximise Media_ in the Minimal Settings Plugin.
+
+The image grid is useful for when you need to present a gallery of images quickly within your notes. To enable them, open Absolve’s settings, navigate to _Aesthetics_, and turn on _Image Grids_.
+
+To arrange your images into a grid, places images next to each other, and link to a heading `#grid`. If you are linking to an external image (_which I don’t recommend by the way; it doesn’t really work_), you can make the alt text `> grid`. Separate rows with line breaks.
+
+```markdown
+![[your_image_1.png#grid]]![[your_image_2.png#grid]]
+![[your_image_3.png#grid]]![[your_image_4.png#grid]]![[your_image_5.png#grid]]
+```
+
+Below is an example of how I might use image grids.
+
+![](https://cdn.discordapp.com/attachments/667421695841402910/944393379058425906/unknown.png)
+
+#### Kanban Lists
+Absolve offers its own style of Kanban Lists, with heading and subheading classes to emphasise topics within the lists you might create. They work nicely on Publish sites, and I regularly use them in my TTRPG notes. Below is an example source, and what it would make.
+
+The line breaks after the HTML style implementation _is important_. The lists won’t render correctly unless with the line breaks like so.
+
+```html
+- <h5 class=head>Section One</h5>
+	
+	- Some notes…
+	- Lorem ipsum dolor sit amet…
+- <h5 class=head>Section Two</h5>
+
+	- ![[dd-identicon.png]]
+	- <h6 class=sub>Sub Section</h6>
+	- Lorem ipsum dolor sit amet, consectetur adipiscing elit…
+- <h5 class=head>Section Three</h5>
+
+	- [ ] Todo
+	- [x] Done!
+	- [ ] Todo
+```
+
+Alternatively, through the _Markdown Attributes_ plugin, where the line breaking doesn’t matter.
+
+```markdown
+- ##### Section One {.head}
+	- Some notes
+	- Lorem ipsum dolor sit amet…
+- ##### Section Two {.head}
+	- ![[dd-identicon.png]]
+	- ###### Sub Section {.sub}
+		- Lorem ipsum dolor sit amet, consectetur adipiscing elit…
+- ##### Section Three {.head}
+	- [ ] Todo
+	- [x] Done!
+	- [ ] Todo
+```
+
+![](https://cdn.discordapp.com/attachments/667421695841402910/944393458242699284/Pasted_image_20220216222710.png)
+
+#### officerhalf’s Handwritten Letters
 
 ### Checklist
 - [ ] Aesthetics
@@ -76,7 +164,11 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 	- [x] Toggle Rainbell’s Column Admonitions ✅ 2022-02-09
 	- [x] Toggle Image Desaturation ✅ 2022-02-10
 	- [x] Toggle No Nonsense Note Embeds ✅ 2022-02-11
-- [ ] Typography
+	- [x] Resize Mermaid Graphs ✅ 2022-02-18
+	- [x] Wrap Filenames ✅ 2022-02-18
+	- [x] Hide Title bar text ✅ 2022-02-18
+	- [x] Footnote tweaks ✅ 2022-02-18
+- [x] Typography ✅ 2022-02-16
 	- [x] Font Preferences ✅ 2022-02-09
 		- [x] Preview Mode Font ✅ 2022-02-09
 		- [x] Edit Mode Font ✅ 2022-02-09
@@ -97,13 +189,25 @@ Your setup is complete! To make use of Absolve’s [features](#Features), just g
 		- [x] H4 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
 		- [x] H5 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
 		- [x] H6 Toggle: Italics, Text Transform, Font Variant; Change: Size, Align ✅ 2022-02-11
-	- [ ] Links
+	- [x] Links ✅ 2022-02-16
 		- [x] Toggle External Links Icon ✅ 2022-02-10
 		- [x] Toggle Underline External Links ✅ 2022-02-10
 		- [x] Toggle Underline Internal Links ✅ 2022-02-10
-		- [ ] Choose External Link Colour
+		- [x] Choose External Link Colour ✅ 2022-02-16
 
 ### Changelog
+#### v2.4.0-beta
+✨ **New**
+- Added image grids > Aesthetics
+- Added toggle for footnote changes > Tweaks
+
+👾 **Bugfixes**
+- Instead of targeting `img` within CSS, Absolve now targets `img[src]`. This should avoid an issue in upcoming Obsidian & Insider versions
+
+🔧 **Changes**
+- Removed “Colours” header. Now Accents, Caret, and Workspace colouring can be found easier
+- Sanctum’s aside tags will now have a width of 50%. This is to avoid strange text wrapping on mobile
+
 #### v2.3.1-beta
 👾 **Bugfixes**
 - officerhalf Handwritten Letters can now be applied through `cssclass: handwritten-letter`
